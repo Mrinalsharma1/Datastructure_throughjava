@@ -1,0 +1,19 @@
+// import java.util.*;
+
+public class break1 {
+    public static void main(String[] args) {
+        first: for (int i = 0; i < 3; i++) {
+            second: for (int j = 0; j < 3; j++) {
+                if (i == 1 && j == 1) {
+                    break second;
+                }
+                System.out.println(i + " " + j);
+            }
+            if (i == 2)
+                continue;
+
+            System.out.print(i + " ");
+
+        }
+    }
+}
