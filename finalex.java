@@ -1,6 +1,6 @@
 class test {
     final void display(final int x) {
-        final int y = x;
+        int y = x;
         int z = y + 10;
         System.out.print("this is final example \n");
         System.out.print(z);
