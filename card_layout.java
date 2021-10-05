@@ -15,6 +15,7 @@ public class card_layout extends JFrame implements ActionListener {
     card_layout() {
 
         cPane = getContentPane();
+        // this is changed by mrinal
 
         // default constructor used
         // therefore, components will
