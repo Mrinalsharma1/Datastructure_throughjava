@@ -18,6 +18,7 @@ public class detect {
         String s3 = "String literal";
         System.out.println(s1);
         System.out.println(s3);
+        
         char grade = 'B';
         grade = (char) (grade + 8);
         System.out.println(grade);
