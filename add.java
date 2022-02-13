@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class vichel {
     int a, b;
 
@@ -26,8 +28,14 @@ class vichel {
 public class add {
     public static void main(String[] args) {
         vichel mk = new vichel();
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter first number");
+        int a = obj.nextInt();
+        int b = obj.nextInt();
+        // here is a new updated
 
-        mk.car(10, 20);
+        mk.car(a, b);
+        mk.disp();
 
     }
 }
