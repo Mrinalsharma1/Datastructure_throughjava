@@ -1,3 +1,5 @@
+import mypack.person;
+
 class person {
     int id;
     String name;
