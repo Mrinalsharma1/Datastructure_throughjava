@@ -23,9 +23,3 @@ public class Arachnomeshq1 {
 
     }
 }
-
-// Input Case 1:
-// input: [2,2,2,2,2]
-// output: 5
-// solution : 2+ 2+ 2+ 2+ 2 = 10/5 ==> 2
-// it contain five 2 element
