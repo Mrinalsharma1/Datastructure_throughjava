@@ -23,5 +23,3 @@ public class Arachnomeshq3 {
         System.out.println(sum / count);
     }
 }
-// input: [1, 4, 3, 4]
-// input: [1, 4, 3, 2]
